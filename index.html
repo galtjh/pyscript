@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Greetings!</title>
+    <link
+      rel="stylesheet"
+      href="https://pyscript.net/releases/2022.12.1/pyscript.css"
+    />
+    <script
+      defer
+      src="https://pyscript.net/releases/2022.12.1/pyscript.js"
+    ></script>
+  </head>
+  <body>
+    add the following line
+    <py-script src="./main.py"></py-script>
+
+    <!--
+    However, browsers will refuse to load and execute the external 
+    Python file (index.html) due to the Cross-Origin Resource Sharing (CORS) 
+    policy error. To solve this, we will need to use a server. 
+    The server doesn’t need to be created by Python, you can use live-server 
+    or any server of your choosing. To create a server, 
+    open the terminal in the root directory of your project and 
+    run the following command:
+    
+    python -m http.server 
+    -->
+  </body>
+</html>
